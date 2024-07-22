@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Vrunda Raval">
+        <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+        <link rel="icon" href="img/vrundalogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <title>
+            HTML-TASK
+        </title>
+       
+    </head>
+    <body>
+        <header>
+        <h1>
+           You get to know me.
+        </h1>
+        <hr>
+        <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation">Primary Navigation</h2>
+           <ul>
+            <li><a href="#brief">My Recent Vacation</a></li>
+            <li><a href="#visit">Places yet to visit</a></li>
+            <li><a href="#avoid">Places to avoid</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+           </ul> 
+        </nav>
+        </header>
+        <main>
+        <h2>Let's get you to know me.</h2>
+        <p>
+            This is for educational purpose only.
+        </p>
+        <h3>
+            My Daily Schedule
+        </h3>
+        <p>
+           Let me tell you how I:
+           <br>&nbsp;...I learn more about <em>web dev</em>.
+           <br>&nbsp;...I plan out my schedule.
+           <br>&nbsp;...I use resources from <abbr title="Free Code Camp"><a href="https://www.youtube.com/watch?v=kUMe1FH4CHE&ab_channel=freeCodeCamp.org">FCC</a></abbr>.
+        </p>
+       <h3>
+        My Food Schedule
+       </h3>
+       <p>
+        Timings and the meal are divided as follow:
+       </p>
+        <ol>
+        <li>10AM:Breakfast</li>
+        <li>1.30PM:Lunch</li>
+        <li>6.30PM:Snacks</li>
+        <li>9.30PM:Dinner</li>
+        </ol>
+    
+        <hr>
+        <section id="brief">
+        <h3>
+            My Recent Vacation
+        </h3>
+        <img src="img/vacation.jpg" alt="Vacation" height="300" width="350">
+        <p>
+            I went to<abbr title="United States"> US</abbr> in <strong> June </strong>and visited a few scenic places.
+        </p>
+        <p>
+            I have heard good things about these places. And suggest you to visit. 
+        </p>
+        <address>
+            45 E 42nd St, New York, NY 10017, United States<br>
+        </address>
+        <figure>
+            <img src="img/summitone.jpg" alt="Summit-One" height="300" width="350" loading="lazy">
+            <figcaption>Summit-One, New York</figcaption>
+        </figure>
+        <address>    
+            Manhattan Brg, New York, NY 11201, United States<br>
+        </address>
+        <figure>
+            <img src="img/manhattanbridge.jpg" alt="Manhattan bridge" height="300" width="350" loading="lazy">
+            <figcaption>Manhattan Bridge, New York</figcaption>
+        </figure> 
+        <address>   
+            2012 Woodall Rodgers Fwy, Dallas, TX 75201, United States
+        </address>
+        <figure>
+            <img src="img/klydewarrenpark.webp" alt="Kylde Warren Park" height="300" width="350" loading="lazy">
+            <figcaption>Klyde Warren Park, Dallas</figcaption>
+        </figure>
+        </section>
+        <section id="places">
+        <h3>
+            Places I want to visit
+        </h3>
+        <ul>
+        <li>
+            Lapland, Finland
+        </li>
+        <li>
+            Santorini, Greece
+        </li>
+        <li>
+            Rio De Janeiro, Brazil
+        </li>
+        </ul>
+        
+        </section>
+        <section id="avoid">
+        <h3>
+            Places I want to avoid
+        </h3>
+        <dl>
+            <dt>Rizu's House</dt>
+            <dd>My paternal cousin</dd>
+            <dt>Motapappa's house</dt>
+            <dd>My paternal uncle</dd>
+            <dt>Motamama's house</dt>
+            <dd>My maternal uncle</dd>
+        </dl>
+        </section>
+        <article id="jokes">
+            <h3>Some jokes</h3>
+            <p>Once there was a cow. The cow was climbing on the hill. The cow was hungry. It took a stop to eat. Then again it started climbing.......</p>
+            <section>
+                To listen to the full joke pay $100.
+            </section>
+            <section>
+                If you want to listen the joke for free....
+                <aside>
+                    <details>
+                        <summary>
+                             Guess the number of jokes I crack per day.
+                        </summary>
+                        <p>
+                            Approx<mark> 10 jokes</mark> per day. I start making jokes from<time datetime="11:00"> 11 AM </time>in the morning.
+                        </p>
+                    </details>
+                </aside>
+            </section>
+        </article>
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+                <th>&nbsp;</th>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th id="morning" scope="row">Morning</th>
+                <td>
+                    <time datetime="11:00">
+                        11 AM
+                    </time>-<time datetime="13:00">
+                        1PM
+                    </time>
+                </td>
+                <td>Work In Office.</td>
+            </tr>
+            <tr>
+                <th id="afternoon" scope="row">Afternoon</th>
+                <td>
+                    <time datetime="13:00">
+                        1 PM
+                    </time>-<time datetime="13:30">
+                        1.30PM
+                    </time>
+                </td>
+                <td>Lunch In Office.</td>
+            </tr>
+            <tr>
+                <th id="stillafternoon" scope="row">Still Afternoon</th>
+                <td>
+                    <time datetime="13:30">
+                        1.30 PM
+                    </time>-<time datetime="16:30">
+                        4.30PM
+                    </time>
+                </td>
+                <td>Work In Office.</td>
+            </tr>
+            <tr>
+                <th id="finallyevening" scope="row">
+                    FINALLY Evening
+                </th>
+                <td>
+                    <time datetime="16:30">
+                        4.30 PM
+                    </time>-<time datetime="17:30">
+                        5.30PM
+                    </time>
+                </td>
+                <td>Tea Break In Office.</td>
+            </tr>
+            <tr>
+                <th scope="row" id="laterevening">All the time after evening.</th>
+                <td rowspan="2">
+                  Rest Of The Time
+                </td>
+                <td>I act I am serious</td>
+            </tr>
+            <tr>
+                <th scope="row" id="night">Night</th>
+                <td>I try to complete my pendng work.</td>
+            </tr>
+            </tbody> 
+            <tfoot>
+                <tr>
+                    <td colspan="3">And thats what I do daily. Thanks for watching.</td>
+                </tr>
+            </tfoot>   
+        </table>
+
+        <hr>
+
+        <article id="contact">
+            <h3>Contact Me</h3>
+            <p>
+                I will really like to hear from  you about my work done here.
+            </p>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter Your First Name" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                <label for="lastName">Last  Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Enter Your Last Name" autocomplete="on" required >
+                </p>
+                <!-- <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Confidential" required >
+                </p> -->
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Your phone number" autocomplete="on" patter="[0-9]{2}-[0-9]{5}-[0-9]{5}" required >
+                </p>
+                <p>
+                    <label for="decade">Birth Date:</label>
+                    <input type="number" name="decade" id="decade" min="1950" max="2010" step="2" value="1950" >
+                </p>
+                <!-- <p>
+                    <label for="coffee">Favorite Coffee:</label>
+                    <select name="coffee" id="coffee" multiple size="1">
+                        <optgroup label="Group-1">
+                        <option value="regcoffee">
+                            Regular Coffee
+                        </option>
+                        </optgroup>
+                        <option value="coldcoffee" selected>
+                           Cold Coffee
+                        </option>
+                        <option value="hotcoffee">
+                            Hot Coffee
+                        </option>
+                        <optgroup label="Group-2">
+                            <option value="chai">
+                                Chai
+                             </option>
+                        </optgroup>
+                    </select>
+                </p> -->
+                <p>
+                    <label for="coffee">Favorite Coffee:</label>
+                    <input type="text" name="coffee" id="coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                        
+                        <option value="regcoffee">
+                            Regular Coffee
+                        </option>
+                       
+                        <option value="coldcoffee" selected>
+                           Cold Coffee
+                        </option>
+
+                        <option value="hotcoffee">
+                            Hot Coffee
+                        </option>
+                        
+                        <option value="chai">
+                            Chai
+                         </option>
+                      
+                    </datalist>
+                </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        What is your favorite food?
+                    </legend>
+                    <p>
+                        <input type="radio" name="food" id="tacos" value="tacos">
+                        <label for="tacos">Tacos</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza" value="pizza">
+                        <label for="pizza">Pizza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="cake" value="cake">
+                        <label for="cake">Cake</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="nachos" value="nachos">
+                        <label for="nachos">Nachos</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Do you have pets?
+                    </legend>
+                    <p>
+                        <input type="checkbox" name="pets" id="dog" value="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="cat" value="cat">
+                        <label for="cat">Cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="crocodile" value="crocodile">
+                        <label for="crocodile">Crocodile</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="lion" value="lion">
+                        <label for="lion">Lion</label>
+                    </p>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Send Me A Message</legend>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="20" rows="20" placeholder="Type your message here"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit" >Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset" >Reset</button>
+            </form>
+        </article>
+        </main>
+        
+        <hr>
+        <footer>
+        <p>
+        &lt;&lt;&lt; &copy; <a href="about.html">Vrunda Raval</a> &gt;&gt;&gt;
+        </p>
+        </footer>
+    </body>
+</html>
