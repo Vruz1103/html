@@ -1,2 +1,2 @@
 # html
-html tasks done as per the video
+practical task done as per the reference video
